@@ -8,3 +8,8 @@ git config --global user.name "Ppesswani212"
 git branch -M main
 git remote add origin https://github.com/Ppesswani212/P62A_HTML.git
 git push -u origin main
+
+
+git add .
+git commit -m "updated code"
+git push
