@@ -1,0 +1,41 @@
+Hypertext - converts text to hyperlink (jumping from one page to another)
+
+This is <a> text
+
+HTML is made of tegs
+
+Tim Berners Lee - 1992 - 18 tags
+
+150 tags now
+
+No capital tags
+
+HTML is not case sensitive and used to create structure
+
+<a> - anchor tag (used to create hypertext)
+
+colorhunt.co - color palettes for websites
+
+Block Tags - h1 to h6, p, li - 100% width and start with new line
+Inline Tags - i, b, u, sup, sub, mark(highlight) - same width as the content inside it and occupy the same line as where it is applied
+
+<h1> to <h6> - heading tags
+
+<i> - itallic tag
+<b> - bold tag
+<u> - underline tag
+
+<p> - paragraph text
+
+Non container tag (no closing tag):-
+<br> - line break tag
+<img> - image tag
+
+Ordered List-
+<ol>
+    <li></li> list item
+    ..
+    ..
+</ol> default 1, 2, 3...
+
+<img> - 
