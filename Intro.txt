@@ -30,6 +30,7 @@ Inline Tags - i, b, u, sup, sub, mark(highlight) - same width as the content ins
 Non container tag (no closing tag):-
 <br> - line break tag
 <img> - image tag
+<input> - input tag
 
 Ordered List-
 <ol>
