@@ -6,13 +6,14 @@
 
     </head>
 
-    <body>
+    <body bgcolor="red">
 
         <center><h1>Hello World I am Prabhat Pesswani</h1></center>
         <h2>This is my first website</h2>
         <i>Prabhat</i> <b>Pesswani</b>
         <h6>It is being hosted on local server</h6>
         <p>This is a <br> paragraph</p>
+        <!-- &nbsp; - non breaking space -->
 
         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ad adipisci doloribus officiis nemo ipsa reiciendis! Atque neque nam quibusdam repudiandae pariatur aliquam velit expedita perferendis eligendi, adipisci sunt exercitationem.<br>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit iure nobis inventore reprehenderit molestias tenetur quaerat doloribus, repellat aut delectus libero fugit illum non, odio, quia harum! Nam, <mark>distinctio</mark>. x<sup>2</sup> </p>
@@ -58,13 +59,13 @@
         <h1>Signup Form</h1>
 
         <form action="">
-            Enter Name <input type="text" required> <br> <br>
-            Enter Number <input type="number" required placeholder="Enter Number"> <br> <br>
-            Enter Email <input type="email"> <br> <br>
-            Enter Password <input type="password" required> <br> <br>
-            Date of Birth <input type="datetime" required> <br> <br>
-            Enter Color <input type="color"> <br> <br>
-            Attach File <input type="file"> <br> <br>
+            <label for="inpname"> Enter Name </label> <input type="text" required id="inpname"> <br> <br>
+            <label for="inpnum"> Enter Number </label> <input type="number" required placeholder="Enter Number" id="inpnum"> <br> <br>
+            <label for="inpemail"> Enter Email </label> <input type="email" id="inpemail"> <br> <br>
+            <label for="inppass"> Enter Password </label> <input type="password" required id="inppass"> <br> <br>
+            <label for="inpdate"> Date of Birth </label> <input type="datetime" required id="inpdate"> <br> <br>
+            <label for="inpcolor"> Enter Color </label> <input type="color" id="inpcolor"> <br> <br>
+            <label for="inpfile"> Attach File </label> <input type="file" id="inpfile"> <br> <br>
 
             Gender: <input type="radio" name="gen"> Male
                     <input type="radio" name="gen"> Female
@@ -72,11 +73,52 @@
             
             
             <input type="submit" value="Sign Up">
-        </form>
+        </form> <br> <br>
 
         <!--1. youtube video (iframe)
             2. map
-            3. lable, fieldset, legend tags in forms-->
+            3. fieldset, legend tags in forms-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uQH5ICSu8Ro?si=zh026xrUDhXe1gIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <br> <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14666.92356607982!2d77.39146240000001!3d23.2164759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1752564476649!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br> <br> <br>
+
+        <video src="" width="500px" controls muted autoplay loop>Video here</video> <br> <br> <br>
+
+        <!-- <table> <tr> <th> <td> align -->
+        <!-- attribute: colspan rowspan -->
+
+        <table border="1" align="center">
+
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Fees</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Aman</td>
+                <td>Jaipur</td>
+                <td>25000</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <!-- <td>Brijesh</td> -->
+                <td>Bhopal</td>
+                <td>30000</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td colspan="2">Pawan</td>
+                <!-- <td>Indore</td> -->
+                <td>20000</td>
+            </tr>
+
+        </table> <br> <br> <br>
         
     </body>
 

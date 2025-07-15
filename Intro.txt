@@ -16,8 +16,8 @@ HTML is not case sensitive and used to create structure
 
 colorhunt.co - color palettes for websites
 
-Block Tags - h1 to h6, p, li - 100% width and start with new line
-Inline Tags - i, b, u, sup, sub, mark(highlight) - same width as the content inside it and occupy the same line as where it is applied
+Block Tags - h1 to h6, p, li, table - 100% width and start with new line
+Inline Tags - i, b, u, sup, sub, mark(highlight), input, label, image - same width as the content inside it and occupy the same line as where it is applied
 
 <h1> to <h6> - heading tags
 
@@ -39,4 +39,4 @@ Ordered List-
     ..
 </ol> default 1, 2, 3...
 
-<img> - 
+li*3 - to write li tage 3 times
