@@ -1,0 +1,4 @@
+CSS(Cascading Style Sheet) can be applied in three forms:
+1. Inline =>    style="property-name:value;" attribute - property-name:value;
+2. Internal =>  <style></style> tag - in <head>
+3. External =>  
