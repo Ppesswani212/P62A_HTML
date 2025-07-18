@@ -1,4 +1,9 @@
 CSS(Cascading Style Sheet) can be applied in three forms:
 1. Inline =>    style="property-name:value;" attribute - property-name:value;
 2. Internal =>  <style></style> tag - in <head>
-3. External =>  
+3. External =>  <link rel="stylesheet" href="style.css"> tag - in head to link style.css file containing all styling requirements
+
+Selectors:
+1. Element/Tag selector =>
+2. id selector => unique element (can only be used one time)
+3. class selector => can be used multiple time
