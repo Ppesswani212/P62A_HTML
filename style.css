@@ -26,6 +26,10 @@ body{
     letter-spacing: 5px;
     word-spacing: 10px;
     font-family: 'Times New Roman', Times, serif;
+    /* border: solid;
+    border-color: orangered; */
+    border: 2px solid orangered;
+    border-radius: 5px;
 }
 
 .para2{
@@ -40,6 +44,11 @@ body{
     word-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: tan; /* this is used */
+    /* border: dashed;
+    border-color: lime; */
+    border: 4px dashed #39ff14;
+    padding-right: 30px;
+    margin: 50px;
 }
 
 h3{
@@ -47,8 +56,22 @@ h3{
     font-size: 100px;
     text-align: center;
     word-spacing: 20px;
+    /* border: dotted;
+    border-color: blue; */
+    /* border: 2px dotted blue; */
+    border-top: 2px dotted blue;
+    border-left: 3px double red;
+    margin-left: 50px;
+    padding-top: 25px;
 }
 
 .para3{
     background-color: chartreuse;
+    /* border: double;
+    border-color: coral; */
+    border: 4px double coral;
+}
+
+#con{
+    background-color: cadetblue;
 }

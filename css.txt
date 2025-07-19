@@ -7,3 +7,7 @@ Selectors:
 1. Element/Tag selector =>
 2. id selector => unique element (can only be used one time)
 3. class selector => can be used multiple time
+
+<div></div> tag to create containers
+display property
+div and display are most highly used
