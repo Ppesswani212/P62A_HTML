@@ -11,3 +11,5 @@ Selectors:
 <div></div> tag to create containers
 display property
 div and display are most highly used
+
+try to give width in % and height in px
