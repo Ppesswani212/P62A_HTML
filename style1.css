@@ -23,6 +23,7 @@
     align-items: center; /* y-axis */
     gap: 5%;
     border: 3px solid crimson;
+    border-radius: 10px;
     width: 90%;
     height: 600px;
     margin: auto;
@@ -54,6 +55,7 @@
     align-items: center; /* y-axis */
     /* border: 1px solid lime; */
 }
+
 .child p{
     text-align: center;
     padding: 1%;
@@ -72,7 +74,7 @@
     color:gold;
 }
 
-.sub1{
+.sub{
     width: 25%;
     height: 100%;
     /* border: 1px solid red; */
@@ -80,33 +82,4 @@
     justify-content: center; /* x-axis */
     align-items: center; /* y-axis */
     /* border-bottom-left-radius: 10px; */
-}
-
-.sub2{
-    width: 25%;
-    height: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center; /* x-axis */
-    align-items: center; /* y-axis */
-}
-
-.sub3{
-    width: 25%;
-    height: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center; /* x-axis */
-    align-items: center; /* y-axis */
-    /* border-bottom-right-radius: 10px; */
-}
-
-.sub4{
-    width: 25%;
-    height: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center; /* x-axis */
-    align-items: center; /* y-axis */
-    /* border-bottom-right-radius: 10px; */
 }
