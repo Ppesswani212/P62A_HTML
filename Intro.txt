@@ -40,3 +40,5 @@ Ordered List-
 </ol> default 1, 2, 3...
 
 li*3 - to write li tage 3 times
+
+font awesome cdn - to use icons
