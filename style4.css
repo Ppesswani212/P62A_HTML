@@ -12,10 +12,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute; /* to merge background image of below section */
+    /* position: absolute; to merge background image of below section */
     /* position: relative; */
-    /* position: fixed; */
+    position: fixed;
+    z-index: 3;
+    background-color: burlywood;
     /* top: 100px; */
+    box-shadow: 0px 20px 10px 0px gray;
 }
 
 #navbar img{
@@ -66,12 +69,12 @@
     height: 45px;
 }
 
-#firstPage{
+#firstpage{
     width: 100%;
     height: 100vh;
     border: 1px solid green;
 
-    background-image: url(./Images/image1.jpg);
+    /* background-image: url(./Images/image1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,6 +85,17 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    z-index: 2;
+}
+#firstpage h1{
+    font-size: 130px;
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+}
+#firstpage img{
+    z-index: 2;
+    opacity: 0.9;
 }
 
 #secondpage{
@@ -102,11 +116,62 @@
     gap: 20px; */
 }
 
-#okk{
+/* #okk{
     position: relative;
 }
 
 #okk p{
     position: absolute;
     top: 40px;
+} */
+
+#okk{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; */
+
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    display: grid;
+    grid-template-columns: repeat(7, 300px);
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 20px;
+}
+
+#okk div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    
+}
+
+#thirdpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thirdpage .insidebox{
+    width: 300px;
+    height: 300px;
+    /* background-color: rgba(165, 42, 42, 0.651); */
+    border: 1px solid black;
+    box-shadow: 10px 20px 10px 0px gray; /* x-axis y-axis blur spread color */
+    /* transition: background-color 3s ease; */
+    transition: all 1s ease;
+}
+#thirdpage .insidebox:hover{
+    background-color: rgba(165, 42, 42, 0.651);
+    box-shadow: 10px 20px 10px 5px rgb(255, 189, 189);
+    /* transform: scale(1.5); */
+    /* transform: rotate(90deg); */
+    /* border-radius: 50%; */
+    /* transform: scale(1.5) rotate(45deg); */
+    transform: translate(100px, 100px); /* x-axis, y-axis */
 }
