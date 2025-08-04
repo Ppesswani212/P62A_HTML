@@ -15,8 +15,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    background-color: black;
+    position: fixed;
     border-bottom: 1px solid white;
+}
+#navbar img{
+    transition: all 0.5s ease;
+}
+#navbar img:hover{
+    transform: scale(1.1);
 }
 
 #navbar nav ul{
@@ -31,6 +38,12 @@ body{
     font-size: 15px;
     font-family: sans-serif;
     font-weight: 500;
+    transition: all 0.5s ease;
+}
+#navbar nav ul li a:hover{
+    color:gray;
+    font-size: 18px;
+    font-weight: bold;    
 }
 
 #navbar .social{
@@ -40,6 +53,12 @@ body{
 #navbar .social a{
     color: white;
     font-size: 13px;
+    transition: all 0.5s ease;
+}
+#navbar .social a:hover{
+    color: gray;
+    font-size: 15px;
+    text-shadow: 2px 2px red;
 }
 
 #home{
