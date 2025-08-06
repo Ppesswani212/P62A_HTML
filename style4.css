@@ -175,3 +175,64 @@
     /* transform: scale(1.5) rotate(45deg); */
     transform: translate(100px, 100px); /* x-axis, y-axis */
 }
+
+#bar{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: 30px;
+    z-index: 4;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width:430px) {
+
+#navbar{
+    background-color: cadetblue;
+}
+
+#navbar img{
+    width: 7%;
+}
+
+#navbar nav ul{
+    display: none;
+}
+
+#check:checked~#navbar nav ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    line-height: 30px;
+    z-index: 10;
+}
+
+#navbar .user{
+    display: none;
+}
+
+#navbar .call{
+    display: none;
+}
+
+#bar{
+    display: block;
+}
+
+#firstpage img{
+    width: 60%;
+}
+
+#firstpage h1{
+    font-size: 9vh;
+}
+
+}
